@@ -20,5 +20,7 @@
 </div>
 <hr />
 <ng-container *ngIf="selectedProjectTaskListType === taskListTypes.Sprint">
-	<ngx-tasks-sprint-settings-view></ngx-tasks-sprint-settings-view>
+	<ngx-tasks-sprint-settings-view
+		[project]="project"
+	></ngx-tasks-sprint-settings-view>
 </ng-container>
